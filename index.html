@@ -82,13 +82,57 @@
 		
 		<img src="images/icecreamcone.jpg" width="25%">
 
+		<p><a href="#four" class="ui-btn ui-shadow ui-corner-all">Contact</a></p>
 
 	</div><!-- /content -->
 
 	<div data-role="footer">
 		<h4>Elizabeth</h4>
 	</div><!-- /footer -->
-</div><!-- /page two -->
+</div><!-- /page three -->
+	
+<!-- Start of second page: #four -->
+<div data-role="page" id="four" data-theme="a">
+
+	<div data-role="header">
+		<h1><a href="#one" class="ui-btn ui-shadow ui-corner-all">Elizabeth</a></h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Elizabeth</h2>
+		
+<form name="contact" method="POST" netlify>
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Issue Type: <select name="role[]" multiple>
+      	<option value="leader">General</option>
+      	<option value="follower">Code</option>
+	<option value="follower">Testing</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>	
+
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Elizabeth</h4>
+	</div><!-- /footer -->
+</div><!-- /page four -->	
+	
+	
+	
+
 
 
 </body>
