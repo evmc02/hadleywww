@@ -101,7 +101,7 @@
 	<div role="main" class="ui-content">
 		<h2>Elizabeth</h2>
 		
-<form name="contact" method="POST" netlify>
+<form name="contact" method="POST" netlify-honeypot="bot-field" netlify action="#success">
 
 <p class="hidden">
     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
@@ -135,7 +135,24 @@
 	</div><!-- /footer -->
 </div><!-- /page four -->	
 	
-	
+
+	<!-- Start of second page: #success -->
+<div data-role="page" id="success" data-theme="a">
+
+	<div data-role="header">
+		<h1><a href="#one" class="ui-btn ui-shadow ui-corner-all">Elizabeth</a></h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Success</h2>
+		<p>Thanks for your submission.</p>
+
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Elizabeth</h4>
+	</div><!-- /footer -->
+</div><!-- /page four -->	
 	
 
 
